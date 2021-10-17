@@ -15,7 +15,6 @@ static int ft_verify(char *str, int len)
 	char c;
 	char match;
 
-//	printf("str = (%s) len = (%d) ret == (%d)\n", str, len, ret);
 	while (i < len)
 	{
 		c = str[i];
@@ -34,7 +33,6 @@ static int ft_verify(char *str, int len)
 			break ;
 		i++;
 	}
-	printf("str = (%s) len = (%d) ret == (%d)\n", str, len, ret);
 	return (ret);
 }
 
